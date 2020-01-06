@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="youtube.clipcodes.MainActivity">
+
+
+
+    <item android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/tentang"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/chatglobal"
+        android:icon="@drawable/ic_action_name"
+        android:title="Add Post"
+        app:showAsAction="always" />
+
+
+</menu>

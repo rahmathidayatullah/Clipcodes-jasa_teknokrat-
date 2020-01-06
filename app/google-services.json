@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "230892219983",
+    "firebase_url": "https://clipcodes-b12ce.firebaseio.com",
+    "project_id": "clipcodes-b12ce",
+    "storage_bucket": "clipcodes-b12ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230892219983:android:70e9fb3b358b2da5",
+        "android_client_info": {
+          "package_name": "youtube.clipcodes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230892219983-ef7rq361shuu40dh7rrcj9rk0tr3tu7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrAUCrqFu4lNp5b8BiVEWH1KoXC1vUa3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

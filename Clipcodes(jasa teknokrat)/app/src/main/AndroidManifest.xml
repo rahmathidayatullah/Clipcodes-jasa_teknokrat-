@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="youtube.clipcodes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".firebase_desain.post" />
+        <activity
+            android:name=".firebase_desain.desainlist"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".firebase_programers.programlist" />
+        <activity android:name=".firebase_programers.postt" />
+        <activity android:name=".firebase_servicepc.servicepclist" />
+        <activity android:name=".firebase_servicepc.posttt" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".login.Signup" />
+        <activity android:name=".MainActivityChat"></activity>
+    </application>
+
+</manifest>
